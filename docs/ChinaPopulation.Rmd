@@ -1,0 +1,19 @@
+---
+title: "China Population Analysis"
+author: "April Meadows"
+date: "2024-05-06"
+output: pdf_document
+---
+
+```{r setup, warning=FALSE, message=FALSE}
+# libraries used
+library("tidyverse")
+library("readxl")
+library("cowplot")
+```
+
+```{r}
+# displays the population data for China
+CountryPopulation("China")
+```
+
